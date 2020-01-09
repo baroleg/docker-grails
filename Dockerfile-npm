@@ -1,5 +1,5 @@
 ARG GRAILS_VERSION
-FROM mirasrael/grails:$GRAILS_VERSION
+FROM baroleg/grails:$GRAILS_VERSION
 
 RUN apt-get update
 RUN apt-get install -y npm
